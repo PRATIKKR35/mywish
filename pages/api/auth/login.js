@@ -1,5 +1,5 @@
 import clientPromise from '../../../lib/mongodb';
-import { verifyPassword, createToken } from '../../../lib/auth';
+import { hashPassword, createToken } from '../../../lib/auth';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {

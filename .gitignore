@@ -1,0 +1,14 @@
+# Create .gitignore file
+echo "node_modules/" > .gitignore
+echo ".env.local" >> .gitignore
+echo ".env" >> .gitignore
+echo ".next/" >> .gitignore
+```
+
+Or manually create a `.gitignore` file in your root directory with:
+```
+node_modules/
+.env.local
+.env
+.next/
+.DS_Store
